@@ -1,0 +1,23 @@
+1) port no. http://localhost:8000/login
+2) commands for CMD
+
+a) download- composer
+b) check npm, node version
+c) path where you create the laravel-project-folder in CMD like: cd.., cd foldername
+d) composer create-project laravel/laravel newapplaravel        ---> newapplaravel is project's folder
+e) cd newapplaravel       ---> newapplaravel is project's folder     
+f) php artisan serve      ---> run/execute the project
+g) php artisan make:auth   ----> Authentication(make login,signup page with navigation bar)
+h) php artisan migrate     -----> create the table in database
+i) php artisan make:controller ToDoController   ---> controller create 
+j) php artisan migrate:fresh   ----> drop all the records of table
+k) php artisan view:clear   ---> Compiled views cleared! 
+l) php artisan make:migration create_tasks_table   ---> tasks is table name
+m) after create table use-> php artisan migrate:fresh , then-> php artisan migrate -> , after php artisan serve
+n) php artisan make:model Task  ---> Task is model name
+o) php artisan vendor:publish --tag=laravel-pagination   ----> for pagination (using that http://membd.blogspot.com/2018/02/laravel-pagination-with-materialize-css.html)
+p) php artisan make:migration create_invitations_table  ----> invitations is table name
+q) php artisan make:model Invitation  ----> Invitation is model name
+
+3) folowing url-> https://www.udemy.com/learn-laravel-5-crud-by-creating-to-do-list-application-v20/learn/v4/overview
+4) CRUD(create,read,update,delete) with login,register,validation, pagination, authorization and using https://materializecss.com/collections.html for UI.
